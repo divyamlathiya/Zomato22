@@ -4,33 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zomato - online food delivery</title>
-    <link rel="icon" type="image/x-icon" href="assets/sight-logo.png"> <!-- For sight icon -->
-    <link rel="stylesheet" href="style.css">
+    <title>Zomato - online food delivery</title> <!-- Title of the page displayed in the browser tab -->
+    <link rel="icon" type="image/x-icon" href="assets/sight-logo.png"> <!-- For sight icon, shown in the browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to external stylesheet for page styling -->
 </head>
 
 <body>
     <header>
+        <!-- Logo Section: Link to homepage -->
         <div class="logo">
             <a href="index.html"><img src="assets/logo-img.png" alt="logo-img"></a>
         </div>
 
+        <!-- Navigation menu links -->
         <ul>
             <li><a href="/investor.html">Investor Relations</a></li>
             <li><a href="">Add restaurant</a></li>
             <li><a href="">Log in</a></li>
             <li><a href="">Sign up</a></li>
+
+            <!-- Button linking to Google Play Store -->
             <li><a href="https://play.google.com/store/apps/details?id=com.application.zomato&hl=en_IN" target="_blank"
                     style="padding: 10px 20px; font-size: 15px; ; color: rgb(255, 255, 255); border: 1px solid white; border-radius: 5px;">Get
                     the app</a></li>
         </ul>
     </header>
 
+    <!-- Main Section -->
     <main>
         <section>
-            <!-- Hero Section -->
+            <!-- Hero Section: Eye-catching image and call to action -->
             <img src="./assets/logo-img.png" alt="hero-logo-img" style="margin-top: 20vh;">
             <p style="color: white; font-size:xx-large;">Discover the best food & drinks in Surat</p>
+
+            <!-- City selection dropdown -->
             <select name="" id="city">
                 <option value="selectcity" disabled selected>Select your city</option>
                 <option value="surat">Surat</option>
@@ -43,25 +50,32 @@
                 <option value="chooseinmape">Choose in map</option>
             </select>
             <input type="text" placeholder="Search for restaurant, cuisine or a dish">
+
+            <!-- Button to download the app -->
             <a href="https://play.google.com/store/apps/details?id=com.application.zomato&hl=en_IN" target="_blank"
                 style="text-decoration: none;"><button style="margin-right: 50px; margin-top: 190px;">Get the
                     app</button></a>
         </section>
     </main>
+
+    <!-- Main Features Section -->
     <section class="main-feature">
         <div class="feature">
+            <!-- Image and description for online ordering -->
             <img src="./assets/box-img1.jpg" alt="Pizza" class="feature-img"> <!-- Food Image -->
             <h2>Order Online</h2>
             <p>Stay home and order to your doorstep</p>
             <button class="cta-btn">Order Now</button>
         </div>
         <div class="feature">
+            <!-- Image and description for dining -->
             <img src="./assets/box-img2.jpg" alt="dining" class="feature-img"> <!-- Food Image -->
             <h2>Dining</h2>
             <p>View the city’s favourite dining venues</p>
             <button class="cta-btn">Order Now</button>
         </div>
         <div class="feature">
+            <!-- Image and description for nightlife -->
             <img src="./assets/box-img3.jpg" alt="nightlife" class="feature-img"> <!-- Food Image -->
             <h2>Nightlife and Clubs</h2>
             <p>Explore the city’s top nightlife outlets</p>
@@ -69,11 +83,13 @@
         </div>
     </section>
 
+    <!-- Collections Section -->
     <section>
         <h2>Collections</h2>
         <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Surat, based on trends</p>
         <button>All collections in surat</button>
 
+        <!-- Collection items -->
         <div class="main-collections">
             <div class="collections">
                 <img src="./assets/collection-img1.jpg" alt="">13 Unmissable Gujarati Delicacies <button>11
@@ -94,10 +110,13 @@
         </div>
     </section>
 
+    <!-- Popular Localities Section -->
     <section>
         <h1>Popular localities in and around Surat</h1>
 
         <div class="suggetion-city">
+
+            <!-- Locality suggestion with number of places -->
             <div class="sugg-city">
                 <h2>Vesu</h2>
                 <h4>503 places</h4>
@@ -145,14 +164,19 @@
         </div>
     </section>
 
+    <!-- App Download Section -->
     <section class="download-app">
         <img src="assets/download-app-main-img.jpg" alt="" id="main-img">
         <h1>Get the zomato app</h1>
         <p>We will send you a link, open it on your phone to download the app</p>
+
+        <!-- Input options for app download (email or phone) -->
         <label for="email">E-mail</label>
         <input type="radio" id="email" name="app-download">
         <label for="phone">Phone</label>
         <input type="radio" id="phone" name="app-download">
+
+        <!-- Country code dropdown -->
         <select name="" id="">
             <option value="+91">+91</option>
             <option value="+353">+353</option>
@@ -170,16 +194,24 @@
             <option value="+39">+39</option>
             <option value="+90">+90</option>
         </select>
+
+        <!-- Phone or email input field -->
         <input type="text" placeholder="Enter your phone/email">
+
+        <!-- Button to share app link -->
         <a href="https://whatsapp.com" style="text-decoration: none;" target="_blank"><button>Share app
                 link</button></a>
+
+        <!-- App download links for Google Play Store and Apple App Store -->
         <h6>download app from</h6>
         <a href="https://play.google.com" target="_blank"><img src="assets/download-app-img1.jpg"
                 alt="playstore-img"></a>
         <a href="https://apple.com" target="_blank"><img src="assets/download-app-img2.jpg" alt="appstore-img"></a>
     </section>
 
+    <!-- Footer Section -->
     <footer>
+        <!-- About Zomato section with links -->
         <ul>
             <li>ABOUT ZOMATO</li>
             <li>Who We Are</li>
@@ -191,6 +223,7 @@
             <li>Contact Us</li>
         </ul>
 
+        <!-- Zomaverse section with other services -->
         <ul>
             <li>ZOMAVERSE</li>
             <li>Zomato</li>
@@ -203,12 +236,14 @@
             <li>Weather Union</li>
         </ul>
 
+        <!-- For restaurant section -->
         <ul>
             <li>FOR RESTAURANT</li>
             <li>Partner With Us</li>
             <li>Apps For You</li>
         </ul>
 
+        <!-- Legal section -->
         <ul>
             <li>LEARN MORE</li>
             <li>Privacy</li>
@@ -216,6 +251,7 @@
             <li>Terms</li>
         </ul>
 
+        <!-- Country selector -->
         <div class="country">
             <select name="" id="">
                 <option value="india">India</option>
@@ -223,6 +259,7 @@
             </select>
         </div>
 
+        <!-- Language selector. -->
         <div class="language">
             <select name="" id="">
                 <option value="english">English</option>
@@ -234,18 +271,21 @@
             </select>
         </div>
 
+        <!-- Social media links section. -->
         <div class="social">
             <h2>Social links</h2>
             <img src="assets/social-img1.png" alt="">
             <img src="assets/social-img2.png" alt="">
         </div>
 
+        <!-- Footer copyright and legal. -->
         <p>By continuing past this page, you agree to our <a href="">Terms of Service</a>, <a href="">Cookie Policy</a>,
             <a href="">Privacy Policy</a> and <a href="">Content Policies</a>. All trademarks are properties of their
             respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.
         </p>
     </footer>
 
+    <!-- External JavaScript file. -->
     <script src="js/script.js"></script>
 </body>
 
